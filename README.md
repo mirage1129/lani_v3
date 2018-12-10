@@ -31,8 +31,6 @@ Now you can visit [`localhost:8080`](http://localhost:8080) from your browser.
 			- https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04
 		iv. Secure Nginx with SSL certificate
 			- https://www.digitalocean.com/community/tutorials/how-to-set-up-let-s-encrypt-with-nginx-server-blocks-on-ubuntu-16-04
-		v. Set up deployment with Distillery & Edeliver
-			- 
 		vi. Add pre_erlang_get_and_update_deps function to .deliver/config so Webpack can build assets
 			- https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04
 		vii. Add Nodejs and Postgres annd Build Essentials to server
