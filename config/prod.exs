@@ -12,7 +12,7 @@ use Mix.Config
 config :lani, LaniWeb.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [host: "kunvince.com", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json"
+  cache_static_manifest: "priv/static/cache_manifest.json",
 	server: true,
   code_reloader: false
 

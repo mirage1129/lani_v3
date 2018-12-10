@@ -24,7 +24,7 @@ Now you can visit [`localhost:8080`](http://localhost:8080) from your browser.
 			- Step 7: replace`pgsql` command with `psql`
 			- Step 8: instead of putting prod.secret in `mkdir -p apps/phxroad/secret`, create a folders in the deploy directory called `app_config` and put prod.secret in there
 			- Step 9: In the .deliver/config file, change `BUILD_AT=` to `"/home/deploy/app_build"` and `DELIVER_TO=` to `"/home/deploy/app_release"`. Also, in the `pre_erlang_get_and_update_deps` function, change `local _prod_secret_path=` to `"/home/deploy/app_config/prod.secret.exs"`
-			After step 9, type `echo ".deliver/releases/" >> .gitignore` command in project folder to add .deliver releases to git ignore. Then add and commit the project before deploying in step 10
+			- Step 10: Before step 9, type `echo ".deliver/releases/" >> .gitignore` command in project folder to add .deliver releases to git ignore. Then add and commit the project before deploying in step 10.
 		 
 
 		iii. Install Nginx
